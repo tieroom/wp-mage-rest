@@ -165,6 +165,10 @@
         <label>All Pages</label>
         <block type="page/html" name="root" output="toHtml" template="page/1column.phtml">
 
+            <action method="addBodyClass">
+    　　        <className>cms-home</className>
+    　　    </action>
+
             <block type="page/html_head" name="head" as="head">
                 <action method="addJs"><script>prototype/prototype.js</script></action>
                 <action method="addJs"><script>lib/ccard.js</script></action>

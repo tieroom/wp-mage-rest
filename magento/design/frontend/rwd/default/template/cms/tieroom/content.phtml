@@ -1,1 +1,4 @@
-<?php print($page['content']);
+<?php
+if (isset($page) && is_array($page) && array_key_exists('content', $page)) {
+    print($page['content']);
+}

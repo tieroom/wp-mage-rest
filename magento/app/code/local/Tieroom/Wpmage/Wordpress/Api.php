@@ -128,9 +128,6 @@ class Tieroom_Wpmage_Wordpress_Api {
         $headBlock->setDescription($data['description']);
 
 
-        $headBlock->addItem('skin_css', 'css/tieroom-wpmage.css');
-        $headBlock->addItem('skin_js', 'js/tieroom-wpmage.js');
-
         if (array_key_exists('meta-robots-noindex', $data) || array_key_exists('meta-robots-nofollow', $data)) {
 
             $robots = array();

@@ -1,0 +1,46 @@
+/* line 1, /Users/hising/Projects/wp-mage-rest/magento/skin/frontend/rwd/default/scss/wp-mage-rest.scss */
+.cms-home h1 {
+  text-align: left;
+}
+
+
+.cms-home .main {
+  float:left;
+  width:75%;
+}
+
+
+@media only screen and (max-width: 770px) {
+  .cms-home .main {
+    padding: 0;
+    margin-bottom: 10px;
+    float: none;
+    width: auto;
+  }
+}
+
+/* line 4, /Users/hising/Projects/wp-mage-rest/magento/skin/frontend/rwd/default/scss/wp-mage-rest.scss */
+.cms-home .products-grid {
+  list-style: none !important; }
+
+/* line 6, /Users/hising/Projects/wp-mage-rest/magento/skin/frontend/rwd/default/scss/wp-mage-rest.scss */
+.cms-home .products-grid h2.product-name, .cms-home .products-grid div.caption {
+  margin: 0px;
+  position: absolute;
+  line-height: 1.1em;
+  padding: 12px 0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  font-weight: bold; }
+
+/* line 20, /Users/hising/Projects/wp-mage-rest/magento/skin/frontend/rwd/default/scss/wp-mage-rest.scss */
+.sidebar > div[style] {
+  padding: 20px; }
+
+/* line 24, /Users/hising/Projects/wp-mage-rest/magento/skin/frontend/rwd/default/scss/wp-mage-rest.scss */
+.sidebar > div[style] > div[style] {
+  padding-left: 0px !important; }

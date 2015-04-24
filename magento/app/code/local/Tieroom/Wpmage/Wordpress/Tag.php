@@ -1,6 +1,6 @@
 <?php
 
-require dirname(__FILE__ ) . '/../vendor/CustomTags/TieroomCustomTags.php';
+require dirname(__FILE__) . '/../vendor/CustomTags/TieroomCustomTags.php';
 
 class Tieroom_Wpmage_Wordpress_Tag {
 

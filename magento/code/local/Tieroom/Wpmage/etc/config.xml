@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+	<Tieroom_Wpmage>
+	    <version>0.0.1</version>
+	</Tieroom_Wpmage>
+    </modules>
+
+    <frontend>
+	<routers>
+	    <cms>
+		<use>standard</use>
+		<args>
+		    <modules>
+			<Tieroom_Wpmage before="Mage_Cms">Tieroom_Wpmage</Tieroom_Wpmage>
+		    </modules>
+		</args>
+	    </cms>
+	</routers>
+    </frontend>
+
+</config>

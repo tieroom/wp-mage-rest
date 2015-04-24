@@ -1,0 +1,1 @@
+Enable by moving (or symlinking) Tieroom_Wpmage.xml to /app/etc/modules/Tieroom_Wpmage.xml
